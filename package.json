@@ -1,0 +1,19 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"start:dev": "nodemon index"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	},
+	"dependencies": {
+		"commander": "^9.4.0",
+		"uid": "^2.0.0"
+	}
+}
